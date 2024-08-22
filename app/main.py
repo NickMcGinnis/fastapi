@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # Disable this line to avoid creating tables on every run
 # Since Alembic is used for migrations
+
 # models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
