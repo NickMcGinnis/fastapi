@@ -19,6 +19,11 @@ class Post(PostBase):
     user: "UserRead"
 
 
+class PostOut(BaseModel):
+    Post: Post
+    votes: int
+
+
 class UserCreate(BaseModel):
     email: EmailStr
     password: str
