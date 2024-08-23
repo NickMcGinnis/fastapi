@@ -1,4 +1,3 @@
-version: "3"
 services:
   api:
     image: tinman346/fastapi:latest
